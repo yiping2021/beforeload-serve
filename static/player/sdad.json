@@ -1,0 +1,89 @@
+{
+  "Show": [
+    { "name": "panorama.show", "type": "bool", "value": false },
+    { "name": "pickUp.highlight", "type": "bool", "value": true },
+    { "name": "postprocess", "type": "bool", "value": false },
+    { "name": "postprocess.outline", "type": "bool", "value": true },
+    { "name": "postprocess.ssao", "type": "bool", "value": true },
+    { "name": "render.edge", "type": "bool", "value": false },
+    { "name": "show.select.box", "type": "bool", "value": false },
+    { "name": "MinPixelCount", "type": "int", "value": 5 },
+    { "name": "context.shaderIndex", "type": "int", "value": 3 },
+    { "name": "map.size.x", "type": "int", "value": 256 },
+    { "name": "map.size.y", "type": "int", "value": 256 },
+    { "name": "webrtc.jpgQuality", "type": "int", "value": 100 },
+    { "name": "map.scale.x", "type": "double", "value": 1 },
+    { "name": "map.scale.y", "type": "double", "value": 1 },
+    { "name": "ambientIndenty", "type": "float", "value": 1 },
+    {
+      "name": "camera.minClip",
+      "type": "float",
+      "value": 0.004999999888241291
+    },
+    { "name": "color.pickup.bkAlpha", "type": "float", "value": 0.5 },
+    { "name": "diffuseIntensity", "type": "float", "value": 0 },
+    { "name": "mouse.rotate.speed", "type": "float", "value": 0.5 },
+    {
+      "name": "mouse.scale.speed",
+      "type": "float",
+      "value": 0.05999999865889549
+    },
+    { "name": "specularIntensity", "type": "float", "value": 0.5 },
+    { "name": "pickup.color", "type": "string", "value": "0,1,0,0.392157" },
+    { "name": "pickup.edgeColor", "type": "string", "value": "255,255,0,255" },
+    {
+      "dataSource": ["none", "front", "back", "frontAndBack"],
+      "name": "cullface_mode",
+      "type": "stringList",
+      "value": "none"
+    },
+    {
+      "dataSource": ["上", "下", "左", "右"],
+      "name": "map.dir",
+      "type": "stringList",
+      "value": "上"
+    },
+    {
+      "dataSource": ["左上角", "左下角", "右上角", "右下角"],
+      "name": "map.pos",
+      "type": "stringList",
+      "value": "左上角"
+    },
+    {
+      "dataSource": [
+        "null",
+        "default",
+        "草地",
+        "海平面",
+        "黄昏",
+        "蓝灰渐变",
+        "云层"
+      ],
+      "name": "skybox.list",
+      "type": "stringList",
+      "value": "default"
+    }
+  ],
+  "RoamTrance": {
+    "减少漫游前进速度": [[189]],
+    "前进": [[87]],
+    "右转": [[76]],
+    "后退": [[83]],
+    "向上仰视": [[73]],
+    "向下俯视": [[75]],
+    "向右移动": [[68]],
+    "向左移动": [[65]],
+    "垂直向上移动": [[81]],
+    "垂直向下移动": [[69]],
+    "增加漫游前进速度": [[187]],
+    "奔跑": [[16]],
+    "左转": [[74]],
+    "开启/关闭人物穿墙": [[67]],
+    "开启/关闭人物飞行模式": [[188]],
+    "无重力跳": [[90, 32]],
+    "跳起": [[32]],
+    "蹲下": [[17]],
+    "RoamingSpeed": { "message": "", "status": true, "data": 1 }
+  },
+  "People": { "avatarCapSkin": "white", "avatarBodySkin": "red" }
+}
